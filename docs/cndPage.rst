@@ -1,2 +1,0 @@
-The CND data-structure
-======================
