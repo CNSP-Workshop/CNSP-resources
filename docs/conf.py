@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "Basic Sphinx Example Project"
-copyright = "2022, Read the Docs core team"
-author = "Read the Docs core team"
+project = "CNSP Resources"
+copyright = "2023, Giovanni Di Liberto and the CNSP organisers"
+author = "Giovanni Di Liberto"
 
 
 # -- General configuration ---------------------------------------------------
