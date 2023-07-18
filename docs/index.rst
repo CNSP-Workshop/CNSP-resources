@@ -4,7 +4,7 @@ Welcome to the resource page of the Cognition and Natural Sensory Processing (CN
 The resources include guidelines, data, scripts, and GUIs for sharing and analysing neural data involving continuous stimuli (e.g., speech or music listening). Specifically, we offer:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Guidelines
 
    📜 Tutorials <tutorialPage>
@@ -12,7 +12,7 @@ The resources include guidelines, data, scripts, and GUIs for sharing and analys
 :
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Core resources
 
     📜 Data standardisation and sharing guidelines (CND data structure) <cndPage>
@@ -23,10 +23,11 @@ The resources include guidelines, data, scripts, and GUIs for sharing and analys
 :
 
 .. note::
-   This project is under active development. Contacts:
-- CNSP-coordinator:`Giovanni Di Liberto <https://www.diliberg.net/>`_ diliberg [ a-t ] tcd [ d-o-t ] i.e
-- CNSP-workshop coordinator:`Aaron Nidiffer <https://arnndffr.us/>`_
-- cnspworkshop@gmail.com
+   This project is under active development.
+Contacts:
+- CNSP-coordinator: `Giovanni Di Liberto <https://www.diliberg.net/>`_ diliberg [ a-t ] tcd [ d-o-t ] i.e
+- CNSP-workshop coordinator: `Aaron Nidiffer <https://arnndffr.us/>`_
+- or cnspworkshop@gmail.com
 
 Getting started 
 ===============
