@@ -14,12 +14,12 @@ The resources include guidelines, data, scripts, and GUIs for sharing and analys
    :maxdepth: 1
    :caption: Core resources
 
-    📜 Data standardisation and sharing guidelines (CND data structure) <cndPage>
-    📚 A list of publicly available datasets (primarily EEG) shared in CND <datasetsPage>
-    ⚙️ Original analysis scripts for rapidly analysing those CND datasets <scripsPage>
-    ⚙️ A data simulation toolkit <datasimPage>
-    ⚙️ A GUI for carrying out typical analyses <guiPage>
-
+    📜 CND data structure <cndPage>
+    📚 Datasets <datasetsPage>
+    ⚙️ Analysis scripts <scripsPage>
+    ⚙️ GUI <guiPage>
+    ⚙️ Data simulation toolkit <datasimPage>
+    
 .. note::
    This project is under active development.
 Contacts: |br|
