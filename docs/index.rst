@@ -4,7 +4,15 @@ Welcome to the resource page of the Cognition and Natural Sensory Processing (CN
 The resources include guidelines, data, scripts, and GUIs for sharing and analysing neural data involving continuous stimuli (e.g., speech or music listening). Specifically, we offer:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+   :caption: Guidelines
+
+   tutorialPage
+   howtoPage
+:
+
+.. toctree::
+   :maxdepth: 1
    :caption: Guidelines
 
    📜 Tutorials <tutorialPage>
@@ -12,7 +20,7 @@ The resources include guidelines, data, scripts, and GUIs for sharing and analys
 :
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Core resources
 
     📜 Data standardisation and sharing guidelines (CND data structure) <cndPage>
