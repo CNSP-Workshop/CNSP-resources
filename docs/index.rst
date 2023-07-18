@@ -24,10 +24,10 @@ The resources include guidelines, data, scripts, and GUIs for sharing and analys
 
 .. note::
    This project is under active development.
-Contacts: .. line-block::
-- CNSP-coordinator: `Giovanni Di Liberto <https://www.diliberg.net/>`_ diliberg [ a-t ] tcd [ d-o-t ] i.e .. line-block::
-- CNSP-workshop coordinator: `Aaron Nidiffer <https://arnndffr.us/>`_ .. line-block::
-- or cnspworkshop@gmail.com .. line-block::
+Contacts: |br|
+- CNSP-coordinator: `Giovanni Di Liberto <https://www.diliberg.net/>`_ diliberg [ a-t ] tcd [ d-o-t ] i.e |br|
+- CNSP-workshop coordinator: `Aaron Nidiffer <https://arnndffr.us/>`_ |br|
+- or cnspworkshop@gmail.com
 
 Getting started 
 ===============
@@ -39,3 +39,9 @@ Note that each dataset should be used according to its own license and should be
 
 Getting started <startingPage>
 The main files to download, which can be taken as blueprint for new analyses, are: CNSP Resources Skeleton, which contains the folder structure and a basic tutorial code; CNSP Libraries, which should be unzipped in the 'libs' folder; the CND version of Natural speech listening and Bach piano melodies, which can also be found in the table below; and the CNSP2022 tutorials of interest listed below, which can be run on any CND dataset with minimal code modification.
+
+
+
+.. |br| raw:: html
+
+      <br>
