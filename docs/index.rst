@@ -31,8 +31,8 @@ Core resources |br|
    :maxdepth: 1
    :caption: Guidelines
 
-   tutorialPage
-   howtoPage
+   <tutorialPage>
+   <howtoPage>
 :
 
 .. note::
