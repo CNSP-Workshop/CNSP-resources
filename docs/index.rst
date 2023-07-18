@@ -23,11 +23,10 @@ The resources include guidelines, data, scripts, and GUIs for sharing and analys
 :
 
 .. note::
-   This project is under active development. 
-   |br|Contacts:
-   |br| CNSP-coordinator:`Giovanni Di Liberto <https://www.diliberg.net/>`_ diliberg [ a-t ] tcd [ d-o-t ] i.e
-   |br| CNSP-workshop coordinator:`Aaron Nidiffer <https://arnndffr.us/>`_
-   |br| cnspworkshop@gmail.com
+   This project is under active development. Contacts:
+- CNSP-coordinator:`Giovanni Di Liberto <https://www.diliberg.net/>`_ diliberg [ a-t ] tcd [ d-o-t ] i.e
+- CNSP-workshop coordinator:`Aaron Nidiffer <https://arnndffr.us/>`_
+- cnspworkshop@gmail.com
 
 Getting started 
 ===============
