@@ -1,9 +1,5 @@
 .. include:: ../README.rst
 
-
-CNSP resources 
-===============================================
-
 Welcome to the resource page of the Cognition and Natural Sensory Processing (CNSP) open-science initiative!
 The resources include guidelines, data, scripts, and GUIs for sharing and analysing neural data involving continuous stimuli (e.g., speech or music listening). Specifically, we offer:
 
@@ -29,9 +25,12 @@ The resources include guidelines, data, scripts, and GUIs for sharing and analys
 
 .. note::
    This project is under active development. 
-   Contacts: CNSP-coordinator:`Giovanni Di Liberto <https://www.diliberg.net/>` diliberg [ a-t ] tcd [ d-o-t ] i.e
-             CNSP-workshop coordinator:`Aaron Nidiffer <https://arnndffr.us/>`
-             cnspworkshop@gmail.com
+   Contacts:
+   CNSP-coordinator:`Giovanni Di Liberto <https://www.diliberg.net/>`_ diliberg [ a-t ] tcd [ d-o-t ] i.e
+
+   CNSP-workshop coordinator:`Aaron Nidiffer <https://arnndffr.us/>`_
+
+   cnspworkshop@gmail.com
 
 
 
