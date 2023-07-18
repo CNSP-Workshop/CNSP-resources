@@ -11,7 +11,6 @@ The resources include guidelines, data, scripts, and GUIs for sharing and analys
    ⚙️ How-to guides <howtoPage>
 :
 
-
 .. toctree::
    :maxdepth: 1
    :caption: Core resources
@@ -30,28 +29,13 @@ The resources include guidelines, data, scripts, and GUIs for sharing and analys
    | CNSP-workshop coordinator:`Aaron Nidiffer <https://arnndffr.us/>`_
    | cnspworkshop@gmail.com
 
-
-
+Getting started 
+===============
+For beginners, we suggest going through the tutorials in the order indicated in this documentation.
+For new users with at least a basic understanding of analysis methods such as the TRF, we suggest starting from the first How-to guide 'Getting started' <gettingStartedPage>  
 
 Note that each dataset should be used according to its own license and should be referenced as indicated by the authors in their original submission.
 
+
+Getting started <startingPage>
 The main files to download, which can be taken as blueprint for new analyses, are: CNSP Resources Skeleton, which contains the folder structure and a basic tutorial code; CNSP Libraries, which should be unzipped in the 'libs' folder; the CND version of Natural speech listening and Bach piano melodies, which can also be found in the table below; and the CNSP2022 tutorials of interest listed below, which can be run on any CND dataset with minimal code modification.
-
-
-
-
-Welcome to Lumache's documentation!
-===================================
-
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
-
