@@ -11,13 +11,10 @@ The resources include guidelines, data, scripts, and GUIs for sharing and analys
    howtoPage
 :
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Guidelines
+Guidelines |br|
+   📜 Tutorials <tutorialPage>|br|
+   ⚙️ How-to guides <howtoPage>|br|
 
-   📜 Tutorials <tutorialPage>
-   ⚙️ How-to guides <howtoPage>
-:
 
 .. toctree::
    :maxdepth: 1
