@@ -3,18 +3,12 @@
 Welcome to the resource page of the Cognition and Natural Sensory Processing (CNSP) open-science initiative!
 The resources include guidelines, data, scripts, and GUIs for sharing and analysing neural data involving continuous stimuli (e.g., speech or music listening). Specifically, we offer:
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Guidelines
 
-
-Guidelines |br|
-   📜 Tutorials <tutorialPage> |br|
-   ⚙️ How-to guides <howtoPage> |br| |br|
-
-Core resources |br|
-    📜 Data standardisation and sharing guidelines (CND data structure) <cndPage> |br|
-    📚 A list of publicly available datasets (primarily EEG) shared in CND <datasetsPage> |br|
-    ⚙️ Original analysis scripts for rapidly analysing those CND datasets <scripsPage> |br|
-    ⚙️ A data simulation toolkit <datasimPage> |br|
-    ⚙️ A GUI for carrying out typical analyses <guiPage> |br|
+   📜 Tutorials <tutorialPage>
+   ⚙️ How-to Guide <howtoPage>
 
 .. toctree::
    :maxdepth: 1
@@ -25,15 +19,6 @@ Core resources |br|
     ⚙️ Original analysis scripts for rapidly analysing those CND datasets <scripsPage>
     ⚙️ A data simulation toolkit <datasimPage>
     ⚙️ A GUI for carrying out typical analyses <guiPage>
-:
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Guidelines
-
-   <tutorialPage>
-   <howtoPage>
-:
 
 .. note::
    This project is under active development.
