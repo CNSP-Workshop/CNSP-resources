@@ -21,4 +21,8 @@ we strongly encourage to include all libraries in the CNSP project folder and to
 naming protocol described in our guidelines and in `Di Liberto et al., 2023 (in preparation) <https://cnspworkshop.net>`_.
 
 Download starter-kit `here <https://github.com/CNSP-Workshop/CNSP-resources/tree/main/CNSP>`_.
-The starter-kit contains the folder skeleton, basic how-to scripts, tutorials, and up-to-date libraries. Please note that the libraries contain slim versions of dependencies such as EEGLAB (used for the spline interpolation and topopolot functions), the mTRF-Toolbox (used for the TRF method), and NoiseTools (used for the CCA method). Each folder contains the specific licence and references for the corresponding library. 
+The starter-kit contains the folder skeleton, basic how-to scripts, tutorials, and up-to-date libraries. Please note that the
+libraries contain slim versions of dependencies such as EEGLAB (used for the spline interpolation and topopolot functions),
+the mTRF-Toolbox (used for the TRF method), and NoiseTools (used for the CCA method). Each folder contains the specific licence
+and references for the corresponding library. 
+
