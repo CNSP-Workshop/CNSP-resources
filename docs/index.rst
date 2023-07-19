@@ -9,7 +9,7 @@ The resources include guidelines, data, scripts, and GUIs for sharing and analys
 
    📜 Tutorials <tutorialPage>
    ⚙️ How-to Guide <howtoPage>
-   📑 Citation <citation>
+   ⚙️ Contributing to CNSP <contributePage>
 
 .. toctree::
    :maxdepth: 1
@@ -21,17 +21,14 @@ The resources include guidelines, data, scripts, and GUIs for sharing and analys
     ⚙️ GUI <guiPage>
     ⚙️ Data simulation toolkit <datasimPage>
 	
-	
-	⚙️ API Reference <api>
-	⚙️ Contributing to CNSP <contributePage>
-	📜 Licence <licensePage>
+	📜 Licence <licencePage>
 
 .. toctree::
    :maxdepth: 1
-   :caption: C
+   :caption: About
 
-   📜 Tutorials <tutorialPage>
-   ⚙️ How-to Guide <howtoPage>
+   📜 Core contributors <authorPage>
+   📜 Acknowledgements <acknowledgements>
    📑 Citation <citation>
 
    
