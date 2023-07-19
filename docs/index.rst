@@ -22,8 +22,19 @@ The resources include guidelines, data, scripts, and GUIs for sharing and analys
     ⚙️ Data simulation toolkit <datasimPage>
 	
 	
-	⚙️ API Reference
-    
+	⚙️ API Reference <api>
+	⚙️ Contributing to CNSP <contributePage>
+	📜 Licence <licensePage>
+
+.. toctree::
+   :maxdepth: 1
+   :caption: C
+
+   📜 Tutorials <tutorialPage>
+   ⚙️ How-to Guide <howtoPage>
+   📑 Citation <citation>
+
+   
 .. note::
    This project is under active development.
 Contacts: |br|
