@@ -18,5 +18,5 @@ Below we assume you have the MATLAB environment already configured on your compu
 The first step is to set up the CNSP project folder structure (skeleton) with the up-to-date libraries.
 We can't stress enough the importance of utilising the skeleton as instructed. For example, 
 we strongly encourage to include all libraries in the CNSP project folder and to utilise the precise
-naming protocol described in our guidelines and in `Di Liberto et al., 2023 (in preparation) <>`_.
+naming protocol described in our guidelines and in `Di Liberto et al., 2023 (in preparation) <http://cnspworkshop.net>`_.
 
