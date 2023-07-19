@@ -31,7 +31,7 @@ Contacts: |br|
 Getting started 
 ===============
 For beginners, we suggest going through the tutorials in the order indicated in this documentation.
-For new users with at least a basic understanding of analysis methods such as the TRF, we suggest starting from the first How-to guide 'Getting started' <gettingStartedPage>  
+For new users with at least a basic understanding of analysis methods such as the TRF, we suggest starting from the first How-to guide 'Getting started <gettingStartedPage>'_  
 
 Note that each dataset should be used according to its own license and should be referenced as indicated by the authors in their original submission.
 
