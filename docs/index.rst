@@ -9,6 +9,7 @@ The resources include guidelines, data, scripts, and GUIs for sharing and analys
 
    📜 Tutorials <tutorialPage>
    ⚙️ How-to Guide <howtoPage>
+   📑 Citation <citation>
 
 .. toctree::
    :maxdepth: 1
