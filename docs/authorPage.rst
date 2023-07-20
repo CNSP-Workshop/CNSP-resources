@@ -4,7 +4,7 @@ Members and contributors
 Core members 
 ------------
 
-`Giovanni Di Liberto, PhD <https://diliberg.net>`. |br| Founder and Co-ordinator of the CNSP initiative. Co-ordinator of the CNSP workshops in 2021-22. Organser of the CNSP-workshop 2023.
+`Giovanni Di Liberto, PhD <https://diliberg.net>`_. |br| Founder and Co-ordinator of the CNSP initiative. Co-ordinator of the CNSP workshops in 2021-22. Organser of the CNSP-workshop 2023.
 
 Aaron Nidiffer, PhD. |br| Founder of the CNSP initiative. Organiser of the CNSP workshops in 2021-22. Co-ordinator of the CNSP workshops in 2023
 
@@ -24,8 +24,8 @@ Di Liberto-lab: |br|
 - Martin Winchester. CNSP data browser. Simulation toolkit. BIDS-CND import/export functions. mTRF nested-loop cross validation function.
 
 
-Contributors 
-------------
+Other contributors 
+------------------
 
 - Christian Brodbeck, PhD. Import CND for EelBrain.
 
