@@ -78,7 +78,8 @@ Typical issues include:
    by modifying the following line (around line 38):
    
    .. code-block:: javascript
-		dataMainFolder = '../datasets/LalorNatSpeech/';
-   code
+	 
+	 dataMainFolder = '../datasets/LalorNatSpeech/';
+   
    
 #. MATLAB returns an error. Since all key dependencies are in the `lib` folder, there might be issues with the version of MATLAB.
