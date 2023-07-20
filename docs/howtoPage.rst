@@ -102,10 +102,38 @@ would make your experiment compatible with the CNSP scripts.
 
 CND data storage
 ================
-CND is a data format that plugs in directly onto the CNSP analysis scripts, as well as being compatible with
-toolboxes such as NapLib and EelBrain. Import/output functions are provided for
+CND is a data format that plugs in directly onto the CNSP analysis scripts, GUI, and simulation toolkit,
+as well as being compatible with toolboxes such as NapLib and EelBrain. Import/output functions are provided for
 the effortless transition between CND and BIDS, in case you intend to carry out additional analyses with other
 tools or to compare results between different algorithms.
+
+How can you store your data in CND? If your experiment is similar to the one described in the previous section 
+and you can save or export your raw data in .bdf (e.g., BioSemi Active 2), you might be able to run our conversion
+script `bdf2cnd_example.m` by simply indicating the number of audiofiles and conditions in the experiment. 
+
+.. code-block:: javascript
+
+	% EEG setup (please adjust to your experiment)
+	fsEEG = 512;             % Recording frequency (Hz)
+	eegChannelsIdxs = 1:64;  % idx of EEG scalp channels
+	eegMastoidIdx = [65,66]; % idx of mastoid channels
+	eegOtherExt = 67:72;     % idx of other external channels
+
+	% Preprocessing parameters (please adjust to your experiment)
+	subs = 1:10;                  % Subjects to process
+
+	% Preprocessing parameters (Example experiment)
+	trigCode_audioStart = 1:42; % all trigger codes corresponding to the
+								% start of a trial
+	nAudioFiles = 42;           % number of audio files
+	nCond = 1;                  % number of conditions, where conditions have the same audio-material
+								% (e.g., listening vs. imagery;
+								%        audio-visual vs. audio;
+								%        speech vs. vocoded speech)
+								% Specify nCond=1 if different stimuli for
+								% different conditions.
+
+
 
 
 BIDS data storage
