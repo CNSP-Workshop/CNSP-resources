@@ -88,7 +88,7 @@ Typical issues include:
 Setting up your data
 ********************
 This section will guide you through the process of setting up a new datase so that it can be analysed
-with the CNSP resources using MATLAB scripts or a `GUI <guiPage>` that can be used without MATLAB.
+with the CNSP resources using MATLAB scripts or a `GUI <guiPage.rst>`_ that can be used without MATLAB.
 
 
 
