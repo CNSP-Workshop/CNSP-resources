@@ -1,28 +1,35 @@
-How-to Guides 
-=============
+Licence 
+=======
 
-This page contains a number of practical guides for setting up and using the CNSP resources.
+The CNSP-resources are distributed with BSD 3-Clause Licence. Note that each dataset and external library
+included in the CNSP-resources is distributed according to their own original licences.
 
-Getting started
----------------
+::
 
-This guide details the requirements and key steps for setting up the the CNSP resources on your computer.
-The core component of the libraries and tutorials requires MATLAB software. We also include Python tutorials
-and aim to add more in the future. Part of the resources are independent on a specific programming language (e.g., GUI).
+	All rights reserved.
 
-Getting started (MATLAB CNSP-core)
-----------------------------------
-This section provides guidelines for setting up the CNSP core resources using MATLAB software.
+	Redistribution and use in source and binary forms, with or without
+	modification, are permitted provided that the following conditions are met:
 
-Below we assume you have the MATLAB environment already configured on your computer (>2019).
-The first step is to set up the CNSP project folder structure (skeleton) with the up-to-date libraries.
-We can't stress enough the importance of utilising the skeleton as instructed. For example, 
-we strongly encourage to include all libraries in the CNSP project folder and to utilise the precise
-naming protocol described in our guidelines and in `Di Liberto et al., 2023 (in preparation) <https://cnspworkshop.net>`_.
+	1. Redistributions of source code must retain the above copyright notice, this
+	   list of conditions and the following disclaimer.
 
-Download starter-kit `here <https://github.com/CNSP-Workshop/CNSP-resources/tree/main/CNSP>`_.
-The starter-kit contains the folder skeleton, basic how-to scripts, tutorials, and up-to-date libraries. Please note that the
-libraries contain slim versions of dependencies such as EEGLAB (used for the spline interpolation and topopolot functions),
-the mTRF-Toolbox (used for the TRF method), and NoiseTools (used for the CCA method). Each folder contains the specific licence
-and references for the corresponding library. 
+	2. Redistributions in binary form must reproduce the above copyright notice,
+	   this list of conditions and the following disclaimer in the documentation
+	   and/or other materials provided with the distribution.
+
+	3. Neither the name of the copyright holder nor the names of its
+	   contributors may be used to endorse or promote products derived from
+	   this software without specific prior written permission.
+
+	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+	AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+	IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+	DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+	FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+	DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+	SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+	CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+	OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+	OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
