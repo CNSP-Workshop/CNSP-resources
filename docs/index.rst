@@ -8,7 +8,7 @@ The resources include guidelines, data, scripts, and GUIs for sharing and analys
    :caption: Guidelines
 
    📜 Tutorials <tutorialPage>
-   ⚙️ How-to Guide <howtoPage>
+   ⚙️ How-to Guides <howtoPage>
    ⚙️ Contributing to CNSP <contributePage>
 
 .. toctree::

@@ -12,7 +12,7 @@ Getting started - MATLAB
 This section will guide you through the process of setting up the CNSP core resources using MATLAB software.
 You should have the MATLAB environment already installed on your computer (>2019, with the Signal Processing Toolbox).
 
-First, let's set set up the CNSP starting package. This includes: a) the project folder structure;
+1) First, let's set set up the CNSP starting package. This includes: a) the project folder structure;
 b) the up-to-date libraries; and c) example scripts. We can't stress enough the importance of utilising the folder structure
 and the file naming convention as indicated below. Inconsistencies will require unwanted changes to the scripts.
 
@@ -28,4 +28,6 @@ Please note that the libraries contain slim versions of dependencies such as EEG
 the mTRF-Toolbox (used for the TRF method), and NoiseTools (used for the CCA method). Each folder contains the specific licence
 and references for the corresponding library. The folder 'datasets' should only contains the datasets and, potentially,
 their conversion scripts (e.g., bdf2cnd.m, bdf2bids).
+
+2)  
 
