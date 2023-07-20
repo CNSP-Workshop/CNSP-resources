@@ -102,6 +102,11 @@ would make your experiment compatible with the CNSP scripts.
 
 CND data storage
 ================
+CND is a data format that plugs in directly onto the CNSP analysis scripts, as well as being compatible with
+toolboxes such as NapLib and EelBrain. Import/output functions are provided for
+the effortless transition between CND and BIDS, in case you intend to carry out additional analyses with other
+tools or to compare results between different algorithms.
+
 
 BIDS data storage
 =================
