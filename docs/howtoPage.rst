@@ -74,13 +74,9 @@ Typical issues include:
 #. MATLAB doesn't give an error, but nothing happens. You may have copied the dataset into the wrong folder.
    Or you might have downloaded some other dataset. Note that the dataset name should be specified in 
    `CNSP/exampleScrips/CNSP_example1_forwardTRF.m`
-   by modifying the following line:
+   by modifying the following line (around line 38):
    .. code-block:: MATLAB
 		dataMainFolder = '../datasets/LalorNatSpeech/';
    code
    
-   
-   
-#. MATLAB returns an error.
-#. Preprocessing
-#. Forward TRF analysis
+#. MATLAB returns an error. Since all key dependencies are in the `lib` folder, there might be issues with the version of MATLAB.
