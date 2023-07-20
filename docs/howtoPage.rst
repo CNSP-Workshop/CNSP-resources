@@ -85,12 +85,12 @@ Typical issues include:
 #. MATLAB returns an *error*: Since all key dependencies are in the `lib` folder, there might be issues with the version of MATLAB.
 
 
-How-to analyse your data
-************************
+Setting up your data
+********************
 This section will guide you through the process of setting up a new datase so that it can be analysed
-wih the CNSP resources using MATLAB scripts or a GUI that can be used without Matlab.
+with the CNSP resources using MATLAB scripts or a `GUI <guiPage>`_ that can be used without MATLAB.
 
-You should have the MATLAB environment already installed on your computer (>2019, with the Signal Processing Toolbox).
+
 
 Folder structure
 ================
