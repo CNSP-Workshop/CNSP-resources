@@ -48,7 +48,11 @@ You are now ready to test the first CNSP example script. Open `CNSP/exampleScrip
 
 This script is grouped in four parts:
 
-#. Step 1. ddgdsg
-#. Step 2. sdgsdf
-#. Step 3. ddgdsg
-#. Step 4. sdgsdf
+#. Clearing workspace and adding path to dependencies
+#. Preprocessing and analysis parameters
+#. Preprocessing
+#. Forward TRF analysis
+
+Step 1, 2, and 4 will have to be run every time you use this script.
+Insead, Step 3 (preprocessing) saves the preprocessing files, so it will only have to be run once
+(or every time you want to change the preprocessing).
