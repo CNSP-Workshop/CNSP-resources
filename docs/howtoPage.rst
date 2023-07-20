@@ -85,8 +85,8 @@ Typical issues include:
 #. MATLAB returns an *error*: Since all key dependencies are in the `lib` folder, there might be issues with the version of MATLAB.
 
 
-Setting up your data
-********************
+Setting up your dataset
+***********************
 This section will guide you through the process of setting up a new dataset so that it can be analysed
 with the CNSP resources using MATLAB scripts or a `GUI <guiPage.html>`_ that can be used without MATLAB.
 
@@ -140,17 +140,47 @@ Once the parameters are set, you should ensure that the synchronisation triggers
 your experiments includes extra triggers to mark a button-click, you'll have to make sure that those trigger codes are
 not in `trigCode_audioStart`.
 
+While this part can be laborious and require custom code for your specific experiment, it is also a key step
+of processing as it brings the data onto a standardised data structure, substantially facilitating
+all the analyses that follow.
+
+Troubleshooting CND storage
+===========================
+If you have difficulties running the `bdf2cnd_example.m` script, you might need to apply additional modifications:
+
+#. Clearing workspace and adding path to dependencies
+#. Preprocessing and analysis parameters
+#. Preprocessing
+#. Forward TRF analysis
+
 
 
 BIDS data storage
 =================
-It is possible to save your data according to the BIDS data format and then export it to CND. It should be noted
-that, while BIDS can accomodate this type of experiment, that data format requires additional specifications for
-making the data promptly analysable. For example, BIDS does not require the extraction of stimulus features and
+It is also possible to first save your data according to BIDS, and then export it to CND. Note that,
+while BIDS can accomodate continuous sensory experiments, that format requires additional specifications for
+analysing data from that type of experimen promptly. For example, BIDS does not require the extraction of stimulus features and
 does not provide strict indications on how to save stimulus data, which is instead one of the key specifications
-of CND. As such, we suggest either storing your data in CND and then exporting it in BIDS, if necessary, or 
-taking one of the BIDS datasets that were previously exported from CND, and use that as a blueprint for 
+of CND. Storing your data in CND and then exporting it in BIDS is an optimal solution. Alternatively,
+it is possible to open one of the BIDS datasets that were previously exported from CND, and use it as a blueprint for 
 storing your new datasets in BIDS directly. 
 
 ⚙️ TODO (get in touch if you'd like to help): Writing a step-by-step how-to guide on storing a new raw neurophysiology
 dataset involving continuous sensory stimuli according to BIDS.
+
+
+Running TRF models
+******************
+
+
+
+Running CCA
+***********
+
+Using the GUI
+*************
+
+
+Simulation toolkit
+******************
+
