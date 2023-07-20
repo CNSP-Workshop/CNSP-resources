@@ -38,9 +38,10 @@ is the first time you do this, we suggest downloading the
 `Natural Speech CND Dataset <https://www.data.cnspworkshop.net/data/datasetCND_LalorNatSpeech.zip>`. This dataset was collected
 by Edmund Lalor, Giovanni Di Liberto, and Michael Broderick, and it was utilised for a number of publications.
 The dataset includes EEG data from N=19 individuals, who were presented with continuous speech from an audio-book
-(see <datasetPage> for further information). 
+(see <datasetPage> for further information). The CND dataset should be added to the dataset folder, as indicated in the figure above
+i.e., datasets/nauralSpeech/dataCND.
 
 
 Running an example script
 =========================
-bla bla bla
+You are now ready to test the first CNSP example script. 
