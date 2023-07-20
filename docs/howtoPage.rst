@@ -87,12 +87,15 @@ Typical issues include:
 
 Setting up your data
 ********************
-This section will guide you through the process of setting up a new datase so that it can be analysed
-with the CNSP resources using MATLAB scripts or a `GUI <guiPage.rst>`_ that can be used without MATLAB.
+This section will guide you through the process of setting up a new dataset so that it can be analysed
+with the CNSP resources using MATLAB scripts or a `GUI <guiPage.html>`_ that can be used without MATLAB.
 
 
+The experiment
+==============
 
-Folder structure
+CND data storage
 ================
-First, let's set set up the CNSP starting package. This includes: a) the project folder structure;
-b) the up-to-date lib
+
+CND data storage
+================
