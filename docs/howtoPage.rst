@@ -72,7 +72,7 @@ The guidelines above include code and the dataset for running `CNSP_example1_for
 
 Typical issues include:
  
-#. MATLAB doesn't give an error, but nothing happens. You may have copied the dataset into the wrong folder.
+#. MATLAB doesn't give an error, but *nothing happens*: You may have copied the dataset into the wrong folder.
    Or you might have downloaded some other dataset. Note that the dataset name should be specified in 
    `CNSP/exampleScrips/CNSP_example1_forwardTRF.m`
    by modifying the following line (around line 38):
@@ -82,4 +82,17 @@ Typical issues include:
 	 dataMainFolder = '../datasets/LalorNatSpeech/';
    
    
-#. MATLAB returns an error. Since all key dependencies are in the `lib` folder, there might be issues with the version of MATLAB.
+#. MATLAB returns an *error*: Since all key dependencies are in the `lib` folder, there might be issues with the version of MATLAB.
+
+
+How-to analyse your data
+************************
+This section will guide you through the process of setting up a new datase so that it can be analysed
+wih the CNSP resources using MATLAB scripts or a GUI that can be used without Matlab.
+
+You should have the MATLAB environment already installed on your computer (>2019, with the Signal Processing Toolbox).
+
+Folder structure
+================
+First, let's set set up the CNSP starting package. This includes: a) the project folder structure;
+b) the up-to-date lib
