@@ -56,3 +56,31 @@ This script is grouped in four parts:
 Step 1, 2, and 4 will have to be run every time you use this script.
 Insead, Step 3 (preprocessing) saves the preprocessing files, so it will only have to be run once
 (or every time you want to change the preprocessing).
+
+As a result you should obtain the figure below:
+.. image:: images/resultExample1.png
+  :width: 300
+  :alt: Results example 1
+  
+If this is what you see, then you can use the CNSP resources now. Otherwise, please see the next section on troubleshooting.
+
+Troubleshooting
+===============
+
+The guidelines above include code and the dataset for running `CNSP_example1_forwardTRF.m`. So, what could go wrong?
+
+Typical issues include:
+ 
+#. MATLAB doesn't give an error, but nothing happens. You may have copied the dataset into the wrong folder.
+   Or you might have downloaded some other dataset. Note that the dataset name should be specified in 
+   `CNSP/exampleScrips/CNSP_example1_forwardTRF.m`
+   by modifying the following line:
+   .. code-block:: MATLAB
+		dataMainFolder = '../datasets/LalorNatSpeech/';
+   code
+   
+   
+   
+#. MATLAB returns an error.
+#. Preprocessing
+#. Forward TRF analysis

@@ -91,6 +91,6 @@ switch type
         h = imagesc(model.t(lags),1:numel(feat),model.w(:,lags,:));
         set(gca,'ydir','normal')
 end
-xlabel('Time lag (ms)')
+xlabel('Time latency (ms)')
 xlim(xlims)
 axis square

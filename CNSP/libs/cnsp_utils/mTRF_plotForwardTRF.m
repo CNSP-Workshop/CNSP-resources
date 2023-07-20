@@ -35,7 +35,7 @@ function avgModel =  mTRF_plotForwardTRF(neural,models,rAllElec)
 
     if isfield(neural,'chanlocs')
         subplot(2,2,2)
-        title('Prediction Corr (Avg)')
+        title('Prediction Corr')
         topoplot(mean(rAllElec,2),neural.chanlocs,'electrodes','off');
         caxis([-0.1,0.1])
         colorbar
@@ -46,7 +46,7 @@ function avgModel =  mTRF_plotForwardTRF(neural,models,rAllElec)
 
     subplot(2,2,3)
     plot(avgModel.t,squeeze(avgModel.w))
-    title('Env TRF (avg)')
+    title('Env TRF')
     xlabel('Time-latency (ms)')
     ylabel('Magnitude (a.u.)')
     xlim([tmin+50,tmax-50])
