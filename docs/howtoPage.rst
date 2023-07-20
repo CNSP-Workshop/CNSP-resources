@@ -93,9 +93,25 @@ with the CNSP resources using MATLAB scripts or a `GUI <guiPage.html>`_ that can
 
 The experiment
 ==============
+If you are designing a new neurophysiology experiment involving continuous stimuli, we have a few suggestions that
+would make your experiment compatible with the CNSP scripts.
+
+.. image:: images/experimentalParadigm.png
+  :width: 500
+  :alt: Typical experimental paradigm
 
 CND data storage
 ================
 
-CND data storage
-================
+BIDS data storage
+=================
+It is possible to save your data according to the BIDS data format and then export it to CND. It should be noted
+that, while BIDS can accomodate this type of experiment, that data format requires additional specifications for
+making the data promptly analysable. For example, BIDS does not require the extraction of stimulus features and
+does not provide strict indications on how to save stimulus data, which is instead one of the key specifications
+of CND. As such, we suggest either storing your data in CND and then exporting it in BIDS, if necessary, or 
+taking one of the BIDS datasets that were previously exported from CND, and use that as a blueprint for 
+storing your new datasets in BIDS directly. 
+
+⚙️ TODO (get in touch if you'd like to help): Writing a step-by-step how-to guide on storing a new raw neurophysiology
+dataset involving continuous sensory stimuli according to BIDS.
