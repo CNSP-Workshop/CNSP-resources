@@ -76,7 +76,7 @@ Typical issues include:
    `CNSP/exampleScrips/CNSP_example1_forwardTRF.m`
    by modifying the following line (around line 38):
    
-   .. code-block::MATLAB
+   .. code-block:: matlab
 		dataMainFolder = '../datasets/LalorNatSpeech/';
    code
    
