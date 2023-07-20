@@ -23,6 +23,6 @@ the mTRF-Toolbox (used for the TRF method), and NoiseTools (used for the CCA met
 and references for the corresponding library. 
 
 .. image:: images/folderStructure.png
-  :width: 400
+  :width: 200
   :alt: Alternative text
 
