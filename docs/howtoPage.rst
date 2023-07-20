@@ -33,7 +33,13 @@ their conversion scripts (e.g., bdf2cnd.m, bdf2bids).
 
 Adding a dataset
 ================
-bla bla bla
+Let's test if your workspace is ready to be used. To do so, you will need to add a dataset to your folder structure. If this
+is the first time you do this, we suggest downloading the
+`Natural Speech CND Dataset <https://www.data.cnspworkshop.net/data/datasetCND_LalorNatSpeech.zip>`. This dataset was collected
+by Edmund Lalor, Giovanni Di Liberto, and Michael Broderick, and it was utilised for a number of publications.
+The dataset includes EEG data from N=19 individuals, who were presented with continuous speech from an audio-book
+(see <datasetPage> for further information). 
+
 
 Running an example script
 =========================
