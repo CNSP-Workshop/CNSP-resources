@@ -16,13 +16,16 @@ First, let's set set up the CNSP starting package. This includes: a) the project
 b) the up-to-date libraries; and c) example scripts. We can't stress enough the importance of utilising the folder structure
 and the file naming convention as indicated below. Inconsistencies will require unwanted changes to the scripts.
 
-Download starter-kit `here <https://github.com/CNSP-Workshop/CNSP-resources/tree/main/CNSP>`_.
+.. image:: images/folderStructure.png
+  :width: 200
+  :alt: Folder structure
+  
+The up-to-date starter-kit is available `here <https://github.com/CNSP-Workshop/CNSP-resources/tree/main/CNSP>`_.
+Please download the entire folder ('CNSP'). We suggest adding a folder names 'code', or 'code_projectName' if 
+multiple projects will be carried out with these resources.
 Please note that the libraries contain slim versions of dependencies such as EEGLAB
 (used for the spline interpolation and topopolot functions),
 the mTRF-Toolbox (used for the TRF method), and NoiseTools (used for the CCA method). Each folder contains the specific licence
-and references for the corresponding library. 
-
-.. image:: images/folderStructure.png
-  :width: 200
-  :alt: Alternative text
+and references for the corresponding library. The folder 'datasets' should only contains the datasets and, potentially,
+their conversion scripts (e.g., bdf2cnd.m, bdf2bids).
 
