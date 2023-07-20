@@ -109,7 +109,8 @@ tools or to compare results between different algorithms.
 
 How can you store your data in CND? If your experiment is similar to the one described in the previous section 
 and you can save or export your raw data in .bdf (e.g., BioSemi Active 2), you might be able to run our conversion
-script `bdf2cnd_example.m` by simply indicating the number of audiofiles and conditions in the experiment. 
+script `bdf2cnd_example.m` by simply indicating the number of audiofiles and conditions in the experiment, as well
+as the details of the acquisition device (e.g., number of channels, sampling frequency, external channels).
 
 .. code-block:: javascript
 
@@ -133,6 +134,11 @@ script `bdf2cnd_example.m` by simply indicating the number of audiofiles and con
 								% Specify nCond=1 if different stimuli for
 								% different conditions.
 
+All this might slightly change depending on the type of device and experimental paradigm.
+
+Once the parameters are set, you should ensure that the synchronisation triggers are extracted correctly. For example, if
+your experiments includes extra triggers to mark a button-click, you'll have to make sure that those trigger codes are
+not in `trigCode_audioStart`.
 
 
 
