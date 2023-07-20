@@ -46,3 +46,9 @@ Running an example script
 =========================
 You are now ready to test the first CNSP example script. Open `CNSP/exampleScrips/CNSP_example1_forwardTRF.m`.
 
+This script is grouped in four parts:
+
+#. Step 1. ddgdsg
+#. Step 2. sdgsdf
+#. Step 3. ddgdsg
+#. Step 4. sdgsdf
