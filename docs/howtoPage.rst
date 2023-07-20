@@ -58,6 +58,7 @@ Insead, Step 3 (preprocessing) saves the preprocessing files, so it will only ha
 (or every time you want to change the preprocessing).
 
 As a result you should obtain the figure below:
+
 .. image:: images/resultExample1.png
   :width: 300
   :alt: Results example 1
