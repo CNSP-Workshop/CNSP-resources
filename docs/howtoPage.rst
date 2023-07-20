@@ -39,9 +39,10 @@ is the first time you do this, we suggest downloading the
 by Edmund Lalor, Giovanni Di Liberto, and Michael Broderick, and it was utilised for a number of publications.
 The dataset includes EEG data from N=19 individuals, who were presented with continuous speech from an audio-book
 (see `<datasetPage>`_ for further information). The CND dataset should be added to the dataset folder, as indicated in the figure above
-i.e., datasets/nauralSpeech/dataCND.
+i.e., `datasets/nauralSpeech/dataCND`.
 
 
 Running an example script
 =========================
-You are now ready to test the first CNSP example script. 
+You are now ready to test the first CNSP example script. Open `CNSP/exampleScrips/CNSP_example1_forwardTRF.m`.
+
