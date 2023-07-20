@@ -75,7 +75,8 @@ Typical issues include:
    Or you might have downloaded some other dataset. Note that the dataset name should be specified in 
    `CNSP/exampleScrips/CNSP_example1_forwardTRF.m`
    by modifying the following line (around line 38):
-   .. code-block:: MATLAB
+   
+   .. code-block::MATLAB
 		dataMainFolder = '../datasets/LalorNatSpeech/';
    code
    
