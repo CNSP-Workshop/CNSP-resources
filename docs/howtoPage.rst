@@ -94,7 +94,10 @@ with the CNSP resources using MATLAB scripts or a `GUI <guiPage.html>`_ that can
 The experiment
 ==============
 If you are designing a new neurophysiology experiment involving continuous stimuli, we have a few suggestions that
-would make your experiment compatible with the CNSP scripts.
+would make your experiment compatible with the CNSP scripts. The figure that follows depicts a typical audio-book
+listening paradigm. Neural signals are recorded as participants listen to an audio-story grouped into chapters. 
+Participants can take breaks between chapters. A synchronisation trigger is sent to the acquisition machine to mark
+the sample (in the EEG stream) corresponding to the start of an audio chapter.
 
 .. image:: images/experimentalParadigm.png
   :width: 500
@@ -154,7 +157,6 @@ If you have difficulties running the `bdf2cnd_example.m` script, you might need 
 #. Forward TRF analysis
 
 
-
 BIDS data storage
 =================
 It is also possible to first save your data according to BIDS, and then export it to CND. Note that,
@@ -172,15 +174,16 @@ dataset involving continuous sensory stimuli according to BIDS.
 Running TRF models
 ******************
 
+Forward TRF
+===========
+
+
+Backward TRF
+===========
 
 
 Running CCA
 ***********
 
-Using the GUI
-*************
 
-
-Simulation toolkit
-******************
 
