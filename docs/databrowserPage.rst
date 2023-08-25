@@ -12,7 +12,7 @@ web-application stores datasets and runs analyses directly on the cloud, meaning
 The web browser uses functions from the mTRF-Toolbox for Python REF. 
 
 .. image:: images/webBasedDataBrowser.png
-  :width: 200
+  :width: 600
   :alt: Web-based data browser
 
 
