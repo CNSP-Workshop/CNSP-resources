@@ -1,2 +1,2 @@
-CNSP Data Browser GUI 
+CNSP Data simulation toolkit
 =====================

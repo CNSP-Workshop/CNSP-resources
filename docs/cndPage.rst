@@ -1,2 +1,4 @@
-CNSP Data Browser GUI 
+CNSP CND data structure
 =====================
+
+
