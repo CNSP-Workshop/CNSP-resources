@@ -19,6 +19,7 @@ The resources include guidelines, data, scripts, and GUIs for sharing and analys
     📚 Datasets <datasetsPage>
     ⚙️ Analysis scripts <scripsPage>
     ⚙️ GUI <guiPage>
+    ⚙️ Web browser <databrowserPage>
     ⚙️ Data simulation toolkit <datasimPage>
 	
 	📜 Licence <licencePage>
