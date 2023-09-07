@@ -16,8 +16,7 @@ Please find below a list of publicly available datasets. All datasets are shared
      - Broderick, Andreson, Di Liberto, Crosse and Lalor 
      - `Current Biology, 2018 <https://doi.org/10.1016/j.cub.2018.01.080>`_
      - `Download Natural Speech <https://www.data.cnspworkshop.net/data/datasetCND_LalorNatSpeech.zip>`_,
-      `Download Reverse Natural Speech <https://www.data.cnspworkshop.net/data/datasetCND_LalorNatSpeechReverse.zip>`_,
-       `Download Cocktail Party <https://www.data.cnspworkshop.net/data/datasetCND_LalorCocktailParty.zip>`_
+      `Download Reverse Natural Speech <https://www.data.cnspworkshop.net/data/datasetCND_LalorNatSpeechReverse.zip>`_, `Download Cocktail Party <https://www.data.cnspworkshop.net/data/datasetCND_LalorCocktailParty.zip>`_
    * - `Bach piano melodies - EEG dataset <https://datadryad.org/stash/dataset/doi:10.5061/dryad.g1jwstqmh>`_
      - Di Liberto, Pelofi, Bianco, Patel, Mehta, Herrero, de Cheveigné, Shamma and Mesgarani
      - `eLife, 2020 <https://elifesciences.org/articles/51784>`_     
