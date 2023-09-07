@@ -20,13 +20,13 @@ For simplicity, we advise users to have one main folder for each study. Within t
 (stimulus files) and ‘dataSubX.mat’ (neural data) files as the number of participants. If all subjects were exposed to  the same identical stimuli, then a single ‘dataStim.mat’ file can be used (Fig 2). 
 
 .. image:: images/cnspMainFolderStructure.png
-  :width: 300
+  :width: 400
   :alt: The CNSP folder structure
 
 
 .. image:: images/exampleCNDLayout.png
   :width: 400
-  :alt: The CNSP/datasets folder structure
+  :alt: The datasets folder structure
 
 
 
