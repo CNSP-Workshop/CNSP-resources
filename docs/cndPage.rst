@@ -19,16 +19,14 @@ A set folder structure is provided for containing all the experimental files, an
 For simplicity, we advise users to have one main folder for each study. Within the dataset folder there is a ‘dataCND’ folder, containing as many ‘dataStimX.mat’ 
 (stimulus files) and ‘dataSubX.mat’ (neural data) files as the number of participants. If all subjects were exposed to  the same identical stimuli, then a single ‘dataStim.mat’ file can be used (Fig 2). 
 
-.. raw:: html
+.. image:: images/cnspMainFolderStructure.png
+  :width: 300
+  :alt: The CNSP folder structure
 
-   <div style="display: flex;">
-     <div style="flex: 1; padding: 10px;">
-       <img src="images/cnspMainFolderStructure.png" width="400" alt="The CNSP folder structure">
-     </div>
-     <div style="flex: 1; padding: 10px;">
-       <img src="images/exampleCNDLayout.png" width="400" alt="The CNSP/datasets folder structure">
-     </div>
-   </div>
+
+.. image:: images/exampleCNDLayout.png
+  :width: 400
+  :alt: The CNSP/datasets folder structure
 
 
 
