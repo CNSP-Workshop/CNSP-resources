@@ -15,16 +15,16 @@ The CND format will make your life easier during the CNSP workshop. Here are thr
 How to save your dataset in CND 
 ===============================
 
-A set folder structure is provided for containing all the experimental files, and is organised into ‘code’, ‘tutorials’, ‘datasets’, and ‘libs’ (libraries) folders Fig. x.  
+A set folder structure is provided for containing all the experimental files, and is organised into ‘code’, ‘tutorials’, ‘datasets’, and ‘libs’ (libraries) folders (Fig 1).  
 For simplicity, we advise users to have one main folder for each study. Within the dataset folder there is a ‘dataCND’ folder, containing as many ‘dataStimX.mat’ 
-(stimulus files) and ‘dataSubX.mat’ (neural data) files as the number of participants. If all subjects were exposed to  the same identical stimuli, then a single ‘dataStim.mat’ file can be used Fig y. 
+(stimulus files) and ‘dataSubX.mat’ (neural data) files as the number of participants. If all subjects were exposed to  the same identical stimuli, then a single ‘dataStim.mat’ file can be used (Fig 2). 
 
 .. image:: images/cnspMainFolderStructure.png
   :width: 400
   :alt: The CNSP folder structure
 
 
-.. image:: images/folderStructure.png
+.. image:: images/exampleCNDLayout.png
   :width: 400
   :alt: The CNSP/datasets folder structure
 
