@@ -25,7 +25,7 @@ For simplicity, we advise users to have one main folder for each study. Within t
 
 
 .. image:: images/exampleCNDLayout.png
-  :width: 500
+  :width: 550
   :alt: The datasets folder structure
 
 
