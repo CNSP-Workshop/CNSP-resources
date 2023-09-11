@@ -11,7 +11,7 @@ This research was also supported by the the School of Computer Science and Stati
 
 We thank `mBrainTrain <https://mbraintrain.com/>`_ for their generous sponsorships supporting the CNSP workshops in 2022 and 2023.
 
-We thank `Edmund Lalor, PhD. <https://www.urmc.rochester.edu/people/30415577-edmund-c-lalor>`, for his substantial
+We thank `Edmund Lalor, PhD. <https://www.urmc.rochester.edu/people/30415577-edmund-c-lalor>`_, for his substantial
 data sharing contribution (>3 CND datasets from his research), for his `keynote lecture in CNSP2021 <https://cnspworkshop.net/videos2021.html>`_,
 and for insightful discussions on the direction of the CNSP initiative.
 
