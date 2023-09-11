@@ -21,8 +21,7 @@ Other core contributors
 -----------------------
 
 Di Liberto-lab: |br|
-- Martin Winchester. CNSP data browser. Simulation toolkit. BIDS-CND import/export functions. mTRF nested-loop cross validation function.
-
+- Martin Winchester. CNSP data browser. Simulation toolkit. BIDS-CND import/export functions. mTRF nested-loop cross validation function. |br|
 - Aoife Igoe. CNSP web data browser. Documentation.
 
 Other contributors 
