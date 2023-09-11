@@ -8,7 +8,7 @@ Please find below a list of publicly available datasets. All datasets are shared
    :widths: 25 25 50 25
    :header-rows: 1
 
-   * - CND Data Structure
+   * - CND Data Structure 
      - Original Link
      - Authors
      - Paper
