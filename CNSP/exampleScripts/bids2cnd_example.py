@@ -20,7 +20,7 @@ def setup_dirs(root_path):
         os.makedirs(root_path+"/Stimulus")
 
 
-def transform_to_cnd(curr_bids_file, data, dt, run, task, session, suffix, chs, fs, ext_data, ext_channels):
+def transform_to_cnd(curr_bids_file, data, dt, run, session, suffix, chs, fs, ext_data, ext_channels):
     if not curr_bids_file:
         names = [entry['ch_name'] for entry in chs]
         locs_list = [entry['loc'] for entry in chs]
@@ -31,12 +31,10 @@ def transform_to_cnd(curr_bids_file, data, dt, run, task, session, suffix, chs, 
         list_length = len(next(iter(chs_dict.values())))
         list_of_dicts = [{key: chs_dict[key][i] for key in chs_dict} for i in range(list_length)]
         chs_df = list_of_dicts
-        cnd_file = {"dataType": dt.upper(), "chanlocs": chs_df, "origTrialPosition": np.array(list(range(0, len(data))))+1,
-                    "fs": fs, "data": data, "extChan":[{"description": ext_channels[a]['ch_name'], "data": [np.moveaxis(bb[:, np.newaxis], 0, 1) for bb in b]} for a, b in enumerate([a for a in np.moveaxis(np.stack(ext_data), 2, 0)])]}
+        cnd_file = {"dataType": dt.upper(), "chanlocs": chs_df, "fs": fs, "data": data,
+                    "extChan":[{"description": ext_channels[a]['ch_name'], "data": [np.moveaxis(bb[:, np.newaxis], 0, 1) for bb in b]} for a, b in enumerate([a for a in np.moveaxis(np.stack(ext_data), 2, 0)])]}
         if run:
             cnd_file["runs"] = [run]*len(cnd_file["data"])
-        if task:
-            cnd_file["tasks"] = [task]*len(cnd_file["data"])
         if session:
             cnd_file["sessions"] = [session]*len(cnd_file["data"])
         if suffix:
@@ -50,17 +48,14 @@ def transform_to_cnd(curr_bids_file, data, dt, run, task, session, suffix, chs, 
             cnd_file["extChan"][elec]["data"] += elec_wise_data
         if run:
             cnd_file["runs"] += [run]*len(data)
-        if task:
-            cnd_file["tasks"] += [task]*len(data)
         if session:
             cnd_file["sessions"] += [session]*len(data)
         if suffix:
             cnd_file["suffixes"] += [suffix]*len(data)
-        cnd_file["origTrialPosition"] = np.array(list(range(0, len(cnd_file["data"]))))+1
     return cnd_file
 
 
-def create_stims(curr_stims_file, data, run, task, session, suffix, fs_data, fs_stim, annotations, feats, stim_data, stim_channels):
+def create_stims(curr_stims_file, data, run, session, suffix, fs_data, fs_stim, annotations, feats, stim_data, stim_channels):
     # all stims saved to same feature set
     # For this specific dataset, create word/phoneme onset stim file
     if np.any(stim_data):
@@ -92,8 +87,6 @@ def create_stims(curr_stims_file, data, run, task, session, suffix, fs_data, fs_
                         "condNames": ['cond 1']}
             if run:
                 stim_file["runs"] = [run]*len(stim_file["data"])
-            if task:
-                stim_file["tasks"] = [task]*len(stim_file["data"])
             if session:
                 stim_file["sessions"] = [session]*len(stim_file["data"])
             if suffix:
@@ -111,8 +104,6 @@ def create_stims(curr_stims_file, data, run, task, session, suffix, fs_data, fs_
             stim_file["data"] += stim_data
             if run:
                 stim_file["runs"] += [run]*len(data)
-            if task:
-                stim_file["tasks"] += [task]*len(data)
             if session:
                 stim_file["sessions"] += [session]*len(data)
             if suffix:
@@ -186,9 +177,9 @@ def main(args):
                         except FileNotFoundError:
                             continue
                         else:
-                            a_cnd = transform_to_cnd(a_cnd, data, datatype, run, task, session, suffix, data_channels,
+                            a_cnd = transform_to_cnd(a_cnd, data, datatype, run, session, suffix, data_channels,
                                                      fs, ext_data, ext_channels)
-                            a_stim = create_stims(a_stim, data, run, task, session, suffix, fs, fs,
+                            a_stim = create_stims(a_stim, data, run, session, suffix, fs, fs,
                                                   annotations, stim_features, stim_data, stim_channels)
         try:
             hdf5storage.write(a_cnd, "neural", out_d + "/dataCND/dataSub-" + subject + ".mat", matlab_compatible=True)
