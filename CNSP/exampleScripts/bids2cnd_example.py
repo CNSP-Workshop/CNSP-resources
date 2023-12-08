@@ -182,9 +182,9 @@ def main(args):
                             a_stim = create_stims(a_stim, data, run, session, suffix, fs, fs,
                                                   annotations, stim_features, stim_data, stim_channels)
         try:
-            hdf5storage.write(a_cnd, "neural", out_d + "/dataCND/dataSub-" + subject + ".mat", matlab_compatible=True)
+            hdf5storage.write(a_cnd, "neural", out_d + "/dataCND/dataSub" + subject + ".mat", matlab_compatible=True)
             if a_stim:
-                hdf5storage.write(a_stim, "stim", out_d + "/dataCND/dataStim-" + subject + ".mat",
+                hdf5storage.write(a_stim, "stim", out_d + "/dataCND/dataStim" + subject + ".mat",
                                   matlab_compatible=True)
         except Exception as e:
             print(e)
