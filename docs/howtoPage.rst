@@ -171,19 +171,4 @@ storing your new datasets in BIDS directly.
 dataset involving continuous sensory stimuli according to BIDS.
 
 
-Running TRF models
-******************
-
-Forward TRF
-===========
-
-
-Backward TRF
-===========
-
-
-Running CCA
-***********
-
-
 

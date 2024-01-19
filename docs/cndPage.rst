@@ -32,6 +32,9 @@ For simplicity, we advise users to have one main folder for each study. Within t
 
 Example conversion script (bdf to cnd)
 ======================================
-It is straightforward to convert your own dataset from the popular BIDS format to CND, using the bids2cnd function :download:`here <files/bids2cnd_example.py>`. The example script 
-found :download:`here <files/bdf2CND_example2023.m>` can be used by changing the dataset to your own. 
+Conversion from BIDS to CND is relatively straightforward. As BIDS does not include preprocessed stimulus feature,
+some adjustments are required. We provide an example of this conversion in the Python script :download:`here <files/bids2cnd_example.py>`, which
+converts to CND the `MEG-MASC dataset <https://www.nature.com/articles/s41597-023-02752-5>`_.
+
+We also provide an example Matlab script that was used for converting the EEG Natural speech dataset from the BioSemi format BDS to CND :download:`here <files/bdf2CND_example2023.m>`. 
 
