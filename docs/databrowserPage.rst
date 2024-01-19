@@ -1,7 +1,8 @@
 CNSP Web Based Data Browser
 ###########################
 
-This page gives details on the CNSP web based data browser. Please contact xx for the access password.
+The CNSP web based data browser (0.0.1) is available `here <https://web-browser-408115.ew.r.appspot.com/home>`_.
+Note that the current implementation is considered as a proof-of-concept, as resources are currently limited.
 
 Introduction
 ================
