@@ -33,5 +33,5 @@ For simplicity, we advise users to have one main folder for each study. Within t
 Example conversion script (bdf to cnd)
 ======================================
 It is straightforward to convert your own dataset from the popular BIDS format to CND, using the bids2cnd function :download:`here <files/bids2CND_example.py>`. The example script 
-found :download:`here <files/bdf2CND_example2023.m>` can be used by changing the dataset to your own. 
+found :download:`here <files/bdf2CND_example2023.m>` dff :download:`here <files/bdf2CND_example2023.m>` can be used by changing the dataset to your own. 
 
