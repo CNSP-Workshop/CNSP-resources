@@ -15,6 +15,12 @@ are available at that page. We also include some key tutorials here.
 	<br/><br/>
 	
 	
+.. video:: https://www.data.cnspworkshop.net/CNSP2022_videos/session2a.mp4
+   :width: 500
+   :height: 300
+   :autoplay:
+   :nocontrols:
+	
 mtrf mat
 https://www.data.cnspworkshop.net/CNSP2023_videos/session2.mp4
 
