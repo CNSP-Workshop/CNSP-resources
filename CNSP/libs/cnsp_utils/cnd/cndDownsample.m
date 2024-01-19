@@ -61,7 +61,7 @@ function cnd = cndDownsample(cnd,downFs)
             downX = zeros(round(size(x,1)/2),size(x,2));
             downX(round(nonZeroIdxs/2)) = x(nonZeroIdxs);
             cnd.data{ii,jj} = downX;
-        else % run typcal downsample
+        else % run typical downsample
             cnd.data{ii,jj} = downsample(x,cnd.fs/downFs);
         end
     end
