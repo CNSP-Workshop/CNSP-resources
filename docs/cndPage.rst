@@ -36,5 +36,5 @@ Conversion from BIDS to CND is relatively straightforward. As BIDS does not incl
 some adjustments are required. We provide an example of this conversion in the Python script :download:`here <files/bids2cnd_example.py>`, which
 converts to CND the `MEG-MASC dataset <https://www.nature.com/articles/s41597-023-02752-5>`_.
 
-We also provide an example Matlab script that was used for converting the EEG Natural speech dataset from the BioSemi format BDS to CND :download:`here <files/bdf2CND_example2023.m>`. 
+We also provide an example Matlab script that was used for converting the `EEG Natural speech dataset <https://datadryad.org/stash/dataset/doi:10.5061/dryad.070jc>`_ from the BioSemi format BDS to CND :download:`here <files/bdf2CND_example2023.m>`. 
 
