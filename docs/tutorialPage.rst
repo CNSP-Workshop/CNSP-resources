@@ -1,9 +1,7 @@
 CNSP Data Browser GUI 
 =====================
 
-.. |br| raw:: html
-      <br>
-	  
+  
 Please check out the CNSP website for a full list of tutorials `here <https://cnspworkshop.net/resources.html>`_.
 We suggest following step-by-step the video-recordings of the latest CNSP-workshop. All tutorial files and libraries
 are available at that page. We also include some representative tutorials here.
@@ -15,7 +13,7 @@ mTRF-Toolbox - Basic tutorial MATLAB
 .. video:: https://www.data.cnspworkshop.net/CNSP2022_videos/session2a.mp4
    :width: 600
 
-|br||br|
+|br|
 
 mTRF-Toolbox - Basic tutorial Python (part 1)
 ---------------------------------------------
@@ -24,7 +22,7 @@ mTRF-Toolbox - Basic tutorial Python (part 1)
 .. video:: https://www.data.cnspworkshop.net/CNSP2023_videos/session3c.mp4
    :width: 600
    
-|br||br|
+|br|
 
 mTRF-Toolbox - Basic tutorial Python (part 2)
 ---------------------------------------------
@@ -34,7 +32,7 @@ mTRF-Toolbox - Basic tutorial Python (part 2)
    :width: 600
 
 
-|br||br|
+|br|
 
 mTRF-Toolbox - Multivariate TRFs and CCA
 ----------------------------------------
@@ -43,7 +41,7 @@ mTRF-Toolbox - Multivariate TRFs and CCA
 .. video:: https://www.data.cnspworkshop.net/CNSP2022_videos/session2b.mp4	  
    :width: 600
 
-|br||br|
+|br|
 
 Eelbrain - Basic tutorial Python
 --------------------------------
@@ -54,3 +52,6 @@ Eelbrain - Basic tutorial Python
 
 
 
+.. |br| raw:: html
+
+      <br>
