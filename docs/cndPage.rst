@@ -30,7 +30,7 @@ For simplicity, we advise users to have one main folder for each study. Within t
 
 
 
-Example conversion script (bdf to cnd)
+Example conversion script (BIDS->CND and BDF->CND)
 ======================================
 Conversion from BIDS to CND is relatively straightforward. As BIDS does not include preprocessed stimulus feature,
 some adjustments are required. We provide an example of this conversion in the Python script :download:`here <files/bids2cnd_example.py>`, which
