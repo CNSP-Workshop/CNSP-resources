@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "CNSP Resources"
-copyright = "2023, Giovanni Di Liberto and the CNSP organisers"
+copyright = "2024, Giovanni Di Liberto and the CNSP organisers"
 author = "Giovanni Di Liberto"
 
 
@@ -55,7 +55,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "sphinx_rtd_theme"
+html_theme = "python_docs_theme"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
