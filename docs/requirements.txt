@@ -4,6 +4,8 @@
 #
 #    pip-compile docs/requirements.in
 #
+pip install sphinx
+
 alabaster==0.7.12
     # via sphinx
 babel==2.10.3
@@ -15,7 +17,7 @@ charset-normalizer==2.1.0
 docutils==0.17.1
     # via
     #   sphinx
-    #   sphinx_rtd_theme
+    #   sphinx-rtd-theme
 idna==3.3
     # via requests
 imagesize==1.4.1
@@ -39,7 +41,7 @@ snowballstemmer==2.2.0
 sphinx==5.0.2
     # via
     #   -r docs/requirements.in
-    #   sphinx_rtd_theme
+    #   sphinx-rtd-theme
 sphinx-rtd-theme==1.0.0
     # via -r docs/requirements.in
 sphinxcontrib-applehelp==1.0.2
