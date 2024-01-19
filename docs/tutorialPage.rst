@@ -37,6 +37,18 @@ mTRF-Toolbox - Basic tutorial Python (part 2)
 .. |br| raw:: html
       <br>
 	  
+	
+
+mTRF-Toolbox - Multivariate TRFs and CCA
+----------------------------------------
+(Nate Zuk, Aaron Nidiffer, Giovanni Di Liberto - CNSP2023)
+
+.. video:: https://www.data.cnspworkshop.net/CNSP2022_videos/session2b.mp4	  
+   :width: 600
+
+.. |br| raw:: html
+      <br>
+
 	  
 
 Eelbrain - Basic tutorial Python
