@@ -12,7 +12,7 @@ over the ground-truth signal.
 Here, we provide a simulation toolkit consisting of a small set of Matlab functions and of a graphical interface.
 The simulation toolbox is in the `CNSP-Resources GitHub repository <https://github.com/CNSP-Workshop/CNSP-resources>`_.
 The three steps needed for running simulations, as depicted in the figure below:
-(1) Design TRF, (2) Select TRF, (3)Simulate neural signal.
+(1) Design TRF, (2) Select TRF, (3) Simulate neural signal.
 
 
 .. image:: images/simulation.png
