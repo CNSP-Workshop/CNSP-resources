@@ -7,8 +7,8 @@ The resources include guidelines, data, scripts, and GUIs for sharing and analys
    :maxdepth: 2
    :caption: Guidelines
 
-   📜 Tutorials <tutorialPage>
    ⚙️ How-to Guides <howtoPage>
+   📜 Tutorials <tutorialPage>
    ⚙️ Contributing to CNSP <contributePage>
 
 .. toctree::
