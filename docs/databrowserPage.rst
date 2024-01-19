@@ -10,7 +10,7 @@ This is first web-based data browser for continuous sensory neurophysiology. It 
 similar to those of the MATLAB-based GUI, the current version focuses on forward and backward TRF models only, with a limited number of variable options available. This prototype
 web-application stores datasets and runs analyses directly on the cloud, meaning that the user is no longer limited to the computational constraints of their own machine. 
 
-The web browser uses functions from the mTRF-Toolbox for Python REF. 
+The web browser uses functions from the `mTRF-Toolbox for Python <https://mtrfpy.readthedocs.io/en/latest/>`_. 
 
 .. image:: images/webBasedDataBrowser.png
   :width: 600
