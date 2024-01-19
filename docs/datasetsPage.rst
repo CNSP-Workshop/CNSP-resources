@@ -32,3 +32,7 @@ Please find below a list of publicly available datasets. All datasets are shared
      - `Auditory Attention - EEG dataset <https://zenodo.org/record/3997352#.X0fP1sgza5g>`_ 
      - Das, Francart, Bertrand
      - `J. Neural Eng, 2016 <https://pubmed.ncbi.nlm.nih.gov/27618842/>`_
+   * - `Download BabyRhythm Cambridge EEG dataset <https://osf.io/mdnwg/>`_
+     - `Download BabyRhythm Cambridge EEG dataset <https://osf.io/mdnwg/>`_
+     - Di Liberto, Attaheri, Goswami et al.
+	 - `Nature Communications, 2023 <https://www.nature.com/articles/s41467-023-43490-x>`_
