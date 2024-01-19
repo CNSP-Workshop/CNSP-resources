@@ -4,7 +4,6 @@
 #
 #    pip-compile docs/requirements.in
 #
-pip install sphinx
 
 alabaster==0.7.12
     # via sphinx
