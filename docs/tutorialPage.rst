@@ -6,15 +6,12 @@ We suggest following step-by-step the video-recordings of the latest CNSP-worksh
 are available at that page. We also include some key tutorials here.
 
 .. raw:: html
-	<h2>Session 2 - Hands-on tutorials: Encoding and decoding models for neural signal analysis</h2>
-	<div class="lline">
-		<p><b>First-time users – Encoding and decoding models, introduction to multivariate analysis</b><br/>Mick Crosse, Giorgia Cantisani, Stephanie Haro</p>
-		<video width="80%" controls>
-			<source src="https://www.data.cnspworkshop.net/CNSP2022_videos/session2a.mp4" type="video/mp4">
-			<!--<source src="movie.ogg" type="video/ogg">-->
-			Your browser does not support the video tag.
-		</video>
-	</div>
+	<p><b>First-time users – Encoding and decoding models, introduction to multivariate analysis</b><br/>Mick Crosse, Giorgia Cantisani, Stephanie Haro</p>
+	<video width="80%" controls>
+		<source src="https://www.data.cnspworkshop.net/CNSP2022_videos/session2a.mp4" type="video/mp4">
+		<!--<source src="movie.ogg" type="video/ogg">-->
+		Your browser does not support the video tag.
+	</video>
 	<br/><br/>
 	
 	
