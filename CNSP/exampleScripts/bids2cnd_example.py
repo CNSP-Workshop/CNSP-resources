@@ -1,3 +1,9 @@
+# Script to convert MEG-MASC from BIDS to CND format
+# Article available at https://www.nature.com/articles/s41597-023-02752-5/
+# Dataset available at https://osf.io/ag3kj/
+# https://cnsp-workshop.github.io/website/index.html
+# Author: Martin M. Winchester
+# Last update: 8 December 2023
 import naplib
 import mne_bids
 import os
@@ -6,9 +12,6 @@ import numpy as np
 import datetime
 import hdf5storage
 import json
-# https://cnsp-workshop.github.io/website/index.html
-# Author: Martin M. Winchester
-# Last update: 8 December 2023
 
 
 def setup_dirs(root_path):
