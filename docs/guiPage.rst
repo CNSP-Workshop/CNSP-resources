@@ -20,5 +20,5 @@ relevant for those getting familiar with the CNSP resources for the first time.
 
 Installation Guide 
 ===================
-The executable file can be found at xx. When downloaded, a installation wizard will guide you through the setup process. Please make sure
+The executable file can be found `here<https://data.cnspworkshop.net/data/DataBrowserInstaller.zip>`_. When downloaded, a installation wizard will guide you through the setup process. Please make sure
 to install the files as directed by the wizard, in an easily locatable folder. 
