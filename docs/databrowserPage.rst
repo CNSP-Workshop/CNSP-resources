@@ -17,13 +17,6 @@ The web browser uses functions from the `mTRF-Toolbox for Python <https://mtrfpy
   :alt: Web-based data browser
 
 
-Logging in 
-============
-The web browser is password protected, please contact xx for the access password.
-When logging in, a box will appear asking for the password. Enter it and select the 'Login' button. If the password was entered correctly, 'Success' will be written under the button, and the 
-website will navigate to the '/home' webpage. If it does not navigate automatically please refresh the page.
-
-
 Forward Model 
 ================
 To run a forward TRF (encoding) navigate to the '/home' page. Choose the parameters to run (number of trials, number of subjects, lag values), the lambda values for cross validation, and the 
