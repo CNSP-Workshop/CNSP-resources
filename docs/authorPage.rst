@@ -6,7 +6,7 @@ Core members
 
 `Giovanni Di Liberto, PhD <https://diliberg.net>`_. |br| Founder and Co-ordinator of the CNSP initiative. Co-ordinator of the CNSP workshops in 2021-22. 
 
-Aaron Nidiffer, PhD. |br| Founder of the CNSP initiative. Organiser of the CNSP workshops in 2021-22. 
+Aaron Nidiffer, PhD. |br| Founder of the CNSP initiative. Co-ordinator of the CNSP workshop in 2023. Organiser of the CNSP workshops in 2021-22. 
 
 Mick J. Crosse, PhD. |br| Founder of the CNSP initiative. Organiser of the CNSP workshops in 2021-23. 
 
