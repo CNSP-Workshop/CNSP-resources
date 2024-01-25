@@ -28,13 +28,19 @@ For simplicity, we advise users to have one main folder for each study. Within t
   :width: 550
   :alt: The datasets folder structure
 
+Key steps for storing according to the CND structure
+====================================================
+1) Create a project folder (e.g., $ROOT/studentProject1/).
+2) Copy the content of the CNSP GitHub folder into your new project folder. As a result, you will have three folders in there: datasets, exampleScripts, and libs. Indeed, datasets might contain only one dataset, if your project only has one dataset/experiment. 
+3) Add a subfolder 'code', where you can add the analysis code specific to your project (while the tutorial folder is handy as it contains useful code that you can use in your project)
+4) Add a subfolder for your dataset(s) (e.g., $ROOT/studentProject1/datasets/dataExperiment1/) with three subfolders. One for the raw neural data (e.g., 'rawEEG'). One for the raw audio stimuli (e.g., 'rawSoundStimuli'). One for the CND dataset ('CND').
+5) Convert your raw data to CND, saving the dataStim and dataSub into the 'CND' subfolder.
+6) You are good to go! You can now run the tutorial code or the GUI to process your CND data.
 
 
 Example conversion script (BIDS->CND and BDF->CND)
 ======================================
-Conversion from BIDS to CND is relatively straightforward. As BIDS does not include preprocessed stimulus feature,
-some adjustments are required. We provide an example of this conversion in the Python script :download:`here <files/bids2cnd_example.py>`, which
-converts to CND the `MEG-MASC dataset <https://www.nature.com/articles/s41597-023-02752-5>`_.
+Conversion from BIDS to CND is relatively straightforward, but it is experiment dependent. As BIDS does not include guidelines for storing preprocessed stimulus feature, some adjustments are required. We provide an example of this conversion in the Python script :download:`here <files/bids2cnd_example.py>`, which converts to CND the `MEG-MASC dataset <https://www.nature.com/articles/s41597-023-02752-5>`_.
 
 We also provide an example Matlab script that was used for converting the `EEG Natural speech dataset <https://datadryad.org/stash/dataset/doi:10.5061/dryad.070jc>`_ from the BioSemi format BDS to CND :download:`here <files/bdf2CND_example2023.m>`. 
 
