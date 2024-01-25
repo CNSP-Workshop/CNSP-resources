@@ -30,7 +30,7 @@ For simplicity, we advise users to have one main folder for each study. Within t
 
 Key steps for storing according to the CND structure
 ====================================================
-1) Create a project folder (e.g., $ROOT/studentProject1/).
+1) Create a project folder on your hard-drive (e.g., $ROOT/studentProject1/).
 2) Copy the content of the CNSP GitHub folder into your new project folder. As a result, you will have three folders in there: datasets, exampleScripts, and libs. Indeed, datasets might contain only one dataset, if your project only has one dataset/experiment. 
 3) Add a subfolder 'code', where you can add the analysis code specific to your project (while the tutorial folder is handy as it contains useful code that you can use in your project)
 4) Add a subfolder for your dataset(s) (e.g., $ROOT/studentProject1/datasets/dataExperiment1/) with three subfolders. One for the raw neural data (e.g., 'rawEEG'). One for the raw audio stimuli (e.g., 'rawSoundStimuli'). One for the CND dataset ('CND').
