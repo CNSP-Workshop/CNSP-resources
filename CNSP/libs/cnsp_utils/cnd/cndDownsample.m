@@ -14,7 +14,7 @@ function cnd = cndDownsample(cnd,downFs)
 %                      an integer value.
 %
 %   Author: Giovanni Di Liberto
-%   Last update: 19 July 2023
+%   Last update: 3 February 2024
 %   Copyright 2021 Di Liberto Lab, Trinity College Dublin
 
     if isempty(cnd) || isempty(cnd.data)
@@ -33,7 +33,7 @@ function cnd = cndDownsample(cnd,downFs)
         return
     end
 
-    if mod(cnd.fs,downFs) ~= 0
+    if (mod(cnd.fs,downFs) ~= 0 && mod(downFs,cnd.fs) ~= 0)
         disp('Error: fs/downFs must be an integer value! Continuing without downsampling')
         return
     end
@@ -43,7 +43,9 @@ function cnd = cndDownsample(cnd,downFs)
     
     for ii = 1:size(cnd.data,1)
     for jj = 1:size(cnd.data,2)
-        x = cnd.data{ii,jj};
+    clear downXmulti
+    for iiFea = 1:size(cnd.data{ii,jj},2)
+        x = cnd.data{ii,jj}(:,iiFea);
         nonZeroIdxs = find(x);
         if ~isempty(nonZeroIdxs)
             if (abs(x(nonZeroIdxs(2:end-1)-1))+abs(x(nonZeroIdxs(2:end-1)+1))) == 0 % if all impulses are surrounded by zeros
@@ -56,14 +58,30 @@ function cnd = cndDownsample(cnd,downFs)
                                % This should be changed for particular cases involving only one or two impulses
         end
         
-        % Downsampling
-        if isOnsetVector
-            downX = zeros(round(size(x,1)/2),size(x,2));
-            downX(round(nonZeroIdxs/2)) = x(nonZeroIdxs);
-            cnd.data{ii,jj} = downX;
-        else % run typical downsample
-            cnd.data{ii,jj} = downsample(x,cnd.fs/downFs);
+        if cnd.fs > downFs
+            % Downsampling
+            if isOnsetVector
+                newX = zeros(round(size(x,1)/(cnd.fs/downFs)),size(x,2));
+                newIdxs = round(nonZeroIdxs/(cnd.fs/downFs));
+                if newIdxs(1) == 0
+                    newIdxs(1) = 1;
+                end
+                newX(newIdxs) = x(nonZeroIdxs);
+            else % run typcal downsample
+                newX = downsample(x,cnd.fs/downFs);
+            end
+        else
+            % Upsampling
+            if isOnsetVector
+                newX = zeros(round(size(x,1)/(downFs/cnd.fs)),size(x,2));
+                newX(round(nonZeroIdxs/(downFs/cnd.fs))) = x(nonZeroIdxs);
+            else % run typcal downsample
+                newX = upsample(x,cnd.fs/downFs);
+            end
         end
+        downXmulti(:,iiFea) = newX;
+    end
+    cnd.data{ii,jj} = downXmulti;
     end
     end
     
