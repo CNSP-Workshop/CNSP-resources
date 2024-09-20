@@ -39,7 +39,7 @@ function [cnd] = cndNormalise(cnd,celldim)
         % Calculating normalisation factor
         tmpCnd = cnd.data{iCell,:};
         for tr = 2:length(cnd.data) % getting all values
-            tmpCnd = cat(1,tmpCnd,cnd.data{tr});
+            tmpCnd = cat(1,tmpCnd,cnd.data{iCell,tr});
         end
         tmpCnd = tmpCnd(:);
         normFactor = std(tmpCnd);
