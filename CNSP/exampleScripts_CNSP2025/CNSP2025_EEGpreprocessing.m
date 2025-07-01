@@ -111,7 +111,7 @@ for sub = 1:nSubs
         end
     
         % Saving preprocessed data
-        eegPreFilename = [dataMainFolder,datasetName,dataCNDSubfolder,freqBandName,'pre_',eegFilenames(sub).name];
+        eegPreFilename = [dataMainFolder,datasetName,dataCNDSubfolder,freqBandName,'/pre_',eegFilenames(sub).name];
         disp(['Saving preprocessed EEG data: pre_',eegFilenames(sub).name])
         save(eegPreFilename,'eeg')
 
