@@ -63,7 +63,7 @@ for freqBand = freqBands2analyse
     figure;
     for sub = 1:nSubs
         % Loading preprocessed EEG
-        eegPreFilename = [dataMainFolder,datasetName,dataCNDSubfolder,freqBandName,'pre_',eegFilenames(sub).name];
+        eegPreFilename = [dataMainFolder,datasetName,dataCNDSubfolder,freqBandName,'/pre_',eegFilenames(sub).name];
         disp(['Loading preprocessed EEG data: pre_',eegFilenames(sub).name])
         load(eegPreFilename,'eeg')
         
