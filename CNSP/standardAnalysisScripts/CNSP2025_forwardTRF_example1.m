@@ -49,10 +49,10 @@ for freqBand = freqBands2analyse
     [freqBandName,bandpassFilterRange] = getFreqParams(freqBand);
 
     % Loading Stim data (if same dataStim for all participants)
-    stimFilename = [dataMainFolder,datasetName,dataCNDSubfolder,'dataStim.mat'];
-    if exist(stimFilename)
+    stimFilenameSame = [dataMainFolder,datasetName,dataCNDSubfolder,'dataStim.mat'];
+    if exist(stimFilenameSame)
         disp(['Loading stimulus data: ','dataStim.mat'])
-        load(stimFilename,'stim')
+        load(stimFilenameSame,'stim')
         if downFs < stim.fs
             stim = cndDownsample(stim,downFs);
         end
@@ -68,7 +68,7 @@ for freqBand = freqBands2analyse
         load(eegPreFilename,'eeg')
         
         % Loading Stimulus data (if one dataStim per participant)
-        if ~exist(stimFilename)
+        if ~exist(stimFilenameSame)
             subIdx = regexp(eegFilenames(sub).name, '\d+', 'match'); % finding corresponding index
             subIdx = str2double(subIdx{1});
             stimFilename = [dataMainFolder,datasetName,dataCNDSubfolder,'dataStim',num2str(subIdx),'.mat'];
@@ -134,3 +134,4 @@ for freqBand = freqBands2analyse
     save("./resultFigures/"+freqBandName+"/TRF_nSub"+nSubs+"_condIdx"+condIdx+"_stimIdx"+stimIdx+".mat",'modelAll','rAll','rAllElec','chanlocs')
     savefig("./resultFigures/"+freqBandName+"/TRF_nSub"+nSubs+"_condType"+condIdx+"_stimIdx"+stimIdx+".fig")
 end
+
